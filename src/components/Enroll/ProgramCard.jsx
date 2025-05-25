@@ -1,6 +1,5 @@
 const ProgramCard = ({ title, highlightText, link, buttonText }) => (
   <div className="relative px-2 py-4 bg-[#1F305E] flex flex-col justify-between rounded-lg shadow-lg">
-    {/* Title and highlight text */}
     <h2 className="text-lg sm:text-xl font-semibold text-white text-start">
       {title} <br />
       <span
@@ -21,8 +20,6 @@ const ProgramCard = ({ title, highlightText, link, buttonText }) => (
       </a>
     </span>
     </h2>
-
-    {/* Button container aligned right */}
     
   </div>
 );
